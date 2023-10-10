@@ -1,9 +1,9 @@
 import pytest
 
-from classes.many_to_many import Coffee
-from classes.many_to_many import Customer
-from classes.many_to_many import Order
 
+from classes.coffee import Coffee
+from classes.customer import Customer
+from classes.order import Order
 
 class TestCustomer:
     """Customer in many_to_many.py"""
